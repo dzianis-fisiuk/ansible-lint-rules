@@ -1,8 +1,10 @@
+dist: bionic
+sudo: required
+
 language: python
 python:
-  - "2.7"
-  - "3.5"
-#  - "3.7" waiting for support in travis https://github.com/travis-ci/travis-ci/issues/9552
+  - "3.8"
+
 install:
   - pip install ansible-lint
 script:
